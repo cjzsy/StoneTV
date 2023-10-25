@@ -130,7 +130,7 @@ public class ApiConfig {
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         // Embedded Source : Update in Strings.xml if required
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://我不是.肥猫.love:63/接口禁止贩卖");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://我不是.肥猫.love:63");
         if (apiUrl.isEmpty()) {
             callback.error("源地址为空");
             return;
